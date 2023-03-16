@@ -1,0 +1,86 @@
+@font-face {
+    font-family: NetflixSans;
+    src: url(font/NetflixSans.otf);
+}
+@font-face {
+    font-family: NetflixSansLight;
+    src: url(font/NetflixSansLight.otf);
+}
+body {
+    background-color: black;
+}
+header{
+    position: relative;
+    z-index: 3;
+}
+.button{
+    font-family: NetflixSans;
+    font-size: 18px;
+    text-align: center;   
+    background-color: #e50914;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    height: 35px;
+    width: 125px;
+}
+.button:hover{
+    background-color: #c11119;
+    transition: 0.7s;
+}
+select{
+    font-family: NetflixSansLight;
+    appearance: none;
+    outline: 0;
+    border: 0 !important;
+    background: #000000;
+    background-image: none;
+    font-size: 18px;
+    color: white;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+}
+.logo img {
+    width: 200px;
+    height: 120px;
+    padding-left: 365px;
+    padding-top: 20px;
+}
+.block1 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    display: block;
+    margin-top: -180px;
+    
+
+}
+.block1 .text{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 1000px;
+}    
+
+h1{
+    font-family: Bebas Neue;
+    font-size: 48px;
+    text-align: center;
+    font-weight: normal;
+}
+.block1 h3{
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: normal;
+}
+.block1 p{
+    font-family: Bebas Neue;
+    font-size: 24px;
+}
+

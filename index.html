@@ -12,16 +12,21 @@
 
 <body>
     <header>
-        <div class="logo"> <img src="image/logo.png" alt="logo netflix">
+        <div class="logo">
+            <div class="">
+                <img src="image/logo.png" alt="logo netflix">
+            </div>
+            <div class="">
+                <button class="button" type="button">S'identifier
+                </button>
+                <select name="langage" id="langage-select">
+                    <option value="Français"> Français
+                    </option>
+                    <option value="Anglais"> Anglais
+                    </option>
+                </select>
+            </div>
         </div>
-        <button class="button" type="button">S'identifier
-        </button>
-        <select name="langage" id="langage-select">
-            <option value="Français"> Français
-            </option>
-            <option value="Anglais"> Anglais
-            </option>
-        </select>
     </header>
     <div class="block">
         <div class="block1">
@@ -34,6 +39,9 @@
                 <h3>Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre
                     abonnement.
                 </h3>
+                <input class="champ" type="text" value="" placeholder="Adresse e-mail" />
+                <button class="begin" type="button"> Commencer &rsaquo;
+                </button>
             </div>
         </div>
         <div class="block2">
@@ -89,8 +97,7 @@
             </h3>
             <button class="begin" type="button"> Commencer &rsaquo;
             </button>
-            <input class="champ" type="text" value=""
-                placeholder="Adresse e-mail" />
+            <input class="champ" type="text" value="" placeholder="Adresse e-mail" />
         </div>
 
 

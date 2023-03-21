@@ -68,14 +68,16 @@ select {
     display: block;
     margin-top: -180px;
 }
+
 .barre-grise {
     height: 8px;
     width: 100%;
     background-color: #dcdcdc1e;
-  }
-  .barre-grise .block2{
+}
+
+.barre-grise .block2 {
     align-items: center;
-  }
+}
 
 .block1 img {
     filter: drop-shadow(70%);
@@ -132,7 +134,7 @@ h1 {
     transition: 0.7s;
 }
 
-.champ{
+.champ {
     font-family: NetflixSansLight;
     appearance: none;
     outline: 0;
@@ -144,7 +146,7 @@ h1 {
     height: 56px;
     text-align: center;
     border: 2px solid;
-    box-sizing: border-box ;
+    box-sizing: border-box;
     border-radius: 5px;
 }
 
@@ -179,11 +181,12 @@ h1 {
     position: relative;
     left: 200px;
 }
-.videowd{
-    position:relative;
+
+.videowd {
+    position: relative;
     right: 560px;
     z-index: -1;
-    bottom:10px;
+    bottom: 10px;
 }
 
 .block2 img {
@@ -218,7 +221,8 @@ h1 {
     position: relative;
     right: 200px;
 }
-.videobb{
+
+.videobb {
     position: relative;
     left: 530px;
     z-index: -1;
@@ -283,6 +287,7 @@ h1 {
     justify-content: center;
     color: white;
     padding-right: 30px;
+
 }
 
 .block4 p {
@@ -306,6 +311,7 @@ h1 {
     justify-content: center;
     height: 600px;
 }
+
 .block5 h2 {
     font-family: NetflixSans;
     font-size: 48px;
@@ -339,24 +345,9 @@ h1 {
     height: 480px;
 }
 
-.faq-button {
+.faq-text {
     font-size: 24px;
     font-family: NetflixSans;
-    background-color: #333;
-    color: #fff;
-    width: 1172px;
-    height: 84px;
-    text-align: left;
-    outline: none;
-    transition: background-color 0.3s ease;
-    justify-content: center;
-    margin-left: 365px;
-    padding-left: 24px;
-}
-.faq-text{
-    font-size: 24px;
-    font-family: NetflixSans;
-    background-color: #333;
     color: #fff;
     width: 1172px;
     height: 84px;
@@ -367,9 +358,9 @@ h1 {
     margin-left: 365px;
     padding-left: 24px;
     justify-content: space-between;
-
 }
-.faq h2{
+
+.faq h2 {
     font-family: NetflixSans;
     font-size: 48px;
     text-align: center;
@@ -379,68 +370,76 @@ h1 {
     color: white;
     padding-top: 60px;
     margin-left: 600px;
-
 }
 
-.active, .faq-button:hover{
-    background-color: #555;
-}
-.faq-h3{
+.faq-h3 {
     color: white;
     font-size: 16px;
     font-family: NetflixSansLight;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight:normal;
+    font-weight: normal;
     padding-top: 47px;
 }
-.faq-box{
+
+.faq-box {
     color: white;
     font-size: 24px;
     font-family: NetflixSansLight;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     margin-left: 659px;
     padding-bottom: 72px;
-
 }
-footer{
+
+footer {
     color: white;
     font-family: NetflixSansLight;
     margin-top: 60px;
 }
-footer .number{
+
+footer .number {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.70);
     margin-left: 320px;
     margin-bottom: 50px;
 }
-.number a:link{
+
+.number a:link {
     color: #ffffff;
     text-decoration: none;
 }
-.link a:link{
+
+.link a:link {
     color: rgba(255, 255, 255, 0.70);
 }
-.link{
+
+.link {
     font-family: NetflixSansLight;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
-    padding: 0 20rem;  
+    flex-wrap: wrap;
+    padding: 0 20rem;
 }
-.link a{
+
+.link a {
     width: calc(33.33% - 10px);
     margin-bottom: 10px;
 }
-footer select{
+
+.link a:visited {
+    color: white;
+}
+
+footer select {
     margin-left: 320px;
     margin-top: 25px;
 }
-.copyright{
+
+.copyright {
     margin-left: 320px;
     margin-top: 30px;
     color: rgba(255, 255, 255, 0.70);
@@ -448,5 +447,50 @@ footer select{
     font-size: 14px;
 }
 
+.faq summary {
+    font-size: 24px;
+    font-family: NetflixSansLight;
+    font-weight: normal;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    margin-left: 365px;
+    padding-left: 24px;
+    padding-top: 35px;
+    border: 5px solid black;
+    
+}
+.depliant{
+    margin-left: 365px;
+    background-color: #333;
 
+}
 
+.faq summary:hover {
+    background-color: #555;
+}
+
+.faq details[open] summary {
+    background-color: #333;
+}
+
+.faq details[open] summary:hover {
+    background-color: #333;
+}
+
+.faq details {
+    font-size: 24px;
+    font-family: NetflixSansLight;
+
+    color: #fff;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    
+    
+}
